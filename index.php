@@ -7,12 +7,12 @@
 
 	<body>
 		<?php
-			required_once "utils/parsedown/Parsedown.php";
+			//required_once "utils/parsedown/Parsedown.php";
 
-			$markdown = new Parsedown();
-			$text = file_get_contents("md_files/README.md");
+			//$markdown = new Parsedown();
+			//$text = file_get_contents("md_files/README.md");
 
-			echo $text;
+			echo "Raspberry PI 2";
 		?>
 	</body>
 </html>
