@@ -9,9 +9,9 @@ body{
 	position: relative;
 	/*min-width: 800px;
 	max-width: 1200px;*/
-	width: 1200px;
+	width: 1000px;
 	left: 50%;
-	margin-left: -600px;
+	margin-left: -500px;
 	border: solid #172530 2px;
 }
 
