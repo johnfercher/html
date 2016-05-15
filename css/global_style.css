@@ -7,11 +7,11 @@ body{
 
 #global_content{
 	position: relative;
-	/*min-width: 800px;
-	max-width: 1200px;*/
-	width: 1000px;
+	min-width: 800px;
+	max-width: 1200px;
+	width: 1200px;
 	left: 50%;
-	margin-left: -500px;
+	margin-left: -600px;
 	border: solid #172530 2px;
 }
 
