@@ -1,7 +1,8 @@
 #include "iostream"
+#include "cstdlib"
 
 using namespace std;
 
 int main(){
-	cout << "teste" << endl;
+	system("echo '5' > /dev/ttyACM0");
 }
