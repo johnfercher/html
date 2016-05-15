@@ -16,8 +16,8 @@ body{
 
 /*
  * HEADER STYLE
- * 
  */
+
 
 #header{
 	height: 60px;
@@ -46,5 +46,18 @@ body{
 			width: 270px;
 			margin-top: 18px;
 		}
+
+/*
+ * CONTROL STYLE
+ */
+
+#button_on_off{
+	border: solid #172530 2px;
+	background-color: #172530;
+	padding: 5 10 5 10;
+	color: white;
+	font-weight: bold;
+}
+
 
 
