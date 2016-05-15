@@ -17,13 +17,14 @@ void loop(){                       // run over and over again{
     if(Serial.available()){
       int a = Serial.read();
       Serial.println(a);
-      
-      if(on){
-        on = false;
-        digitalWrite(led, HIGH);
-      }else{
-        digitalWrite(led, LOW);
-        on = true;
+      if(a == 53){
+        if(on){
+          on = false;
+          digitalWrite(led, HIGH);
+        }else{
+          digitalWrite(led, LOW);
+          on = true;
+        }
       }
     }
     delay(500);
