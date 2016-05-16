@@ -39,6 +39,6 @@ $ sudo chmod a+rw /dev/ttyACM0
 $ /bin/stty -F /dev/ttyACM0 9600
 ```
 
-1. Access 127.0.0.1 (or your IP)
+**Last:** *Access 127.0.0.1 (or your IP)*
 
 
