@@ -1,10 +1,11 @@
 README
 ======
 
+Installation
+------------
 > Pay Attention and Follow All The Steps Bellow to Install and Configure your Raspberry PI 2 Server
 
-Raspberry Installation (Needed once)
-------------------------------------
+**Raspberry Installation (Needed once)**
 ```
 $ sudo apt-get update
 $ sudo apt-get install arduino
@@ -13,8 +14,7 @@ $ sudo php5 libapache2-mod-php5
 ```
 
 
-Arduino Configuration (Needed once)
------------------------------------
+**Arduino Configuration (Needed once)**
 1. Connect Arduino via USB with Raspberry
 1. Open the Arduino Software;
 1. Copy (utils/arduino/arduino_receive.ino) and Paste on Software;
@@ -22,8 +22,7 @@ Arduino Configuration (Needed once)
 
 
 
-Raspberry and Arduino Configuration (Always when startup)
----------------------------------------------------------
+**Raspberry and Arduino Configuration (Always when startup)**
 > Be sure that arduino is connected via USB with Raspberry
 
 1. Open the Arduino Software and Select The Port "/dev/ttyACM0"
@@ -35,4 +34,9 @@ $ service apache2 start
 $ sudo chmod a+rw /dev/ttyACM0
 $ /bin/stty -F /dev/ttyACM0 9600
 ```
+
+
+Use
+---
+
 
