@@ -23,6 +23,8 @@ $ sudo php5 libapache2-mod-php5
 
 
 
+Use
+---
 **Raspberry and Arduino Configuration (Always when startup)**
 
 > Be sure that arduino is connected via USB with Raspberry
@@ -37,8 +39,6 @@ $ sudo chmod a+rw /dev/ttyACM0
 $ /bin/stty -F /dev/ttyACM0 9600
 ```
 
-
-Use
----
+1. Access 127.0.0.1 (or your IP)
 
 
