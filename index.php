@@ -14,7 +14,7 @@
 				include "header.php";
 
 				$markdown = new Parsedown();
-				$text = file_get_contents("md_files/README.md");
+				$text = file_get_contents("md_files/EXAMPLE.md");
 				echo $markdown->text($text);
 			?>
 			<div id = "control">
