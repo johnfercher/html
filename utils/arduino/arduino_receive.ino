@@ -5,12 +5,13 @@
  * It shows how to send data to the computer
  */
 
-int led = 13;
+int pin = 13;
+
 boolean on = false;
 void setup()                    // run once, when the sketch starts
 {
   Serial.begin(9600);           // set up Serial library at 9600 bps
-  pinMode(led, OUTPUT);
+  pinMode(pin, OUTPUT);
 }
 
 void loop(){                       // run over and over again{
@@ -20,9 +21,9 @@ void loop(){                       // run over and over again{
       if(a == 53){
         if(on){
           on = false;
-          digitalWrite(led, HIGH);
+          digitalWrite(pin, HIGH);
         }else{
-          digitalWrite(led, LOW);
+          digitalWrite(pin, LOW);
           on = true;
         }
       }
